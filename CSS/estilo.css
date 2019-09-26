@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(bottom rgba(229,229,229,1) 10%, rgba(255, 255, 255, 1) 100%);
+    font-family: 'Roboto Condensed', sans-serif, serif;
+    color: #575757;
+}
+header{
+    background-color: #494949;
+    height: 250px;
+    background-image: url(../imagens/trajano_predio_branco.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+header h1{
+    color: white;
+    size: 48px;
+    float: right;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+nav{
+    background-color: #960000;
+    margin-top: 1px;
+    padding: 5px;
+}
+nav ul li{
+    color: white;
+    display: inline;
+    margin-right: 20px;
+}
+li a:hover{
+    color: #ff7171;
+    height: 25px;
+}
+
+a.menu{
+    text-decoration: none;
+    color:white;
+}
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 900px;
+    padding: 10px;
+}
+section{
+    height: 680px;
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.esquerda{
+    width: 25%;
+    float: left;
+}
+.direita{
+    width: 65%;
+    float: right;
+}
+h2, article h2{
+    border-bottom: 1px solid gray;
+    margin: 5px;
+    color: #960000;
+}
+article{
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px dotted gray;
+    box-shadow: 10px 5px 10 px gray;
+    padding: 10px;
+    margin: 20px 20px;
+    text-align: justify;
+}
+footer{
+    background-color: #dbdbdb;
+    height: 300px;
+}
+div.tabela{
+    display: table;
+}
+div.celula{
+    border: 1px dotted #d0c6c6;
+    display: table-cell;
+    padding: 10px;
+    width: 33%;
+    color: #960000;
+}
+a{
+    color: #636262;
+}
+a:hover{
+    color: #960000;
+}
+
+img{
+    height: 250px;
+}
+.contornoesq{
+    border: 0pt none;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
